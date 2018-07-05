@@ -45,11 +45,7 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func previousPlace(_ sender: UIButton) {
-        index -= 1
-        updateUI()
-    }
-    
+
     @IBAction func nextPlace(_ sender: UIButton) {
         
         index += 1
